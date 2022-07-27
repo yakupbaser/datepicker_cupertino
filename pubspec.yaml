@@ -1,7 +1,7 @@
 name: datepicker_cupertino
 description: Flutter Cupertino Date Picker Text Package.
-version: 0.0.2
-homepage: null
+version: 0.0.3
+homepage: https://github.com/yakupbaser/datepicker_cupertino
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
