@@ -1,6 +1,6 @@
 name: datepicker_cupertino
-description: A new Flutter package project.
-version: 0.0.1
+description: Flutter Cupertino Date Picker Text Package.
+version: 0.0.2
 homepage: null
 
 environment:
