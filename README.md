@@ -13,6 +13,8 @@ and the Flutter guide for
 
 With this package, you can use a widget that can perform date selection on iOS and Android devices. Inspired from cupertino_date_textbox package.
 
+
+
 ## Features
 
 Select any date with cupertino style
@@ -23,9 +25,22 @@ TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
 ## Usage
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/82556567/181524730-bcdc6a81-2cc8-4c02-997b-5449cef05ef3.gif)
 
-You can check an example in there:
-to `/example` folder. 
+
+There is an example, you can check it to /example folder.
+
+```
+   DatePickerCupertino(
+                hintText: 'Select a date:',
+                onDateTimeChanged: (date) {
+                  debugPrint('Selected date is: $date');
+                })
+```
+  - hintText: Text stating that the date should be selected.
+  - onDateTimeChanged: Menu where date is selected.
+  
+
 
 ```dart
 const like = 'sample';
